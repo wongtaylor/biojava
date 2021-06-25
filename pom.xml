@@ -40,7 +40,7 @@
 		<!-- needed for failsafe plugin in integrationtest module - JD 2018-03-08 -->
     	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maxmem>512M</maxmem>
-		<mmtf.version>1.0.9</mmtf.version>
+		<mmtf.version>1.0.10</mmtf.version>
 		<slf4j.version>1.7.30</slf4j.version>
 		<log4j.version>2.13.1</log4j.version>
 	</properties>
@@ -229,9 +229,9 @@
 						<maxmemory>256m</maxmemory>
 						<footer>
 							&lt;script src="http://www.google-analytics.com/urchin.js"
-							type="text/javascript"&gt;&lt;/script&gt;&lt;script
-							type="text/javascript"&gt;_uacct =
-							"UA-1326640-1";urchinTracker();&lt;/script&gt;
+							type="text/javascript">&lt;/script>&lt;script
+							type="text/javascript">_uacct =
+							"UA-1326640-1";urchinTracker();&lt;/script>
 						</footer>
 					</configuration>
 
